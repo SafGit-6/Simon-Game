@@ -1,0 +1,121 @@
+#topDiv{
+  height:10.9%;
+ display:flex;
+ justify-content: space-around;
+}
+
+#score,#highscore{
+ height:100%;
+ width:16rem;
+ border-radius:3px solid black;
+ font-size: 50px;
+visibility: hidden;
+}
+
+
+
+
+
+#heading{
+  
+  font-size:90px ;
+  color:rgb(19, 73, 73);
+  height: 100%;
+}
+
+
+
+#simonTxt{
+  font-size: 80px; 
+  color:rgb(234, 231, 231);
+  background-color: black;
+  margin-top: 0px;
+  width: 80%;
+}
+
+#startBtn{
+  margin-top: 60px;
+  display: inline;
+  text-decoration: none;
+  background-color: black;
+  width:100px;
+  height:40px;
+  border-radius: 30px;;
+  font-size: 30px;
+  color: silver;
+  border: 2px solid silver;
+}
+
+
+#outer{
+  position: relative;
+  /* z-index: -1; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#green,#red,#blue,#yellow{
+  position: relative;
+  /* z-index: 0; */
+  height: 340px;
+  width: 340px;
+  margin:17px;
+}
+
+.green{
+  border-radius: 8%;
+
+  background-color: rgb(76, 232, 33);
+   border-top-left-radius: 100%; 
+   border-bottom-right-radius: 70%;
+}
+
+.red{
+  border-radius: 8%;
+
+ background-color: rgb(236, 83, 17);
+ border-top-right-radius: 100%;
+ border-bottom-left-radius: 70%;
+}
+
+.yellow{
+  border-radius: 8%;
+
+ background-color: yellow;
+ border-bottom-left-radius: 100%;
+ border-top-right-radius: 70%;
+}
+
+.blue{
+  border-radius: 8%;
+
+  background-color: rgb(62, 186, 235);
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 70%;
+}
+
+#center{
+  height: 370px;
+  width: 370px;
+  position: absolute;
+
+  border-radius: 50%;
+
+  top:215px;
+  background-color: black;
+}
+
+.flash{
+  background-color: white;
+}
+
+.userflash{
+  background-color: green;
+}
